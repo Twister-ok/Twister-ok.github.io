@@ -1,0 +1,97 @@
+.carousel-wrapper {
+	width: 605px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.carousel-wrapper .d-carousel ul li {
+	background: none;
+	background-color: #1f1f1f;
+	-webkit-box-shadow: 0px 1px 2px 0px #101010;
+	-moz-box-shadow: 0px 1px 2px 0px #101010;
+	box-shadow: 0px 1px 2px 0px #101010; 
+	padding: 40px 20px;
+	width: 410px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.d-carousel .jcarousel-container {
+	display: block;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.d-carousel .jcarousel-item {
+	width: 190px;
+	height: 290px;
+}
+
+.d-carousel .jcarousel-container-horizontal {
+	width: 605px;
+	height: 325px;
+	padding: 0 100px;
+}
+
+.d-carousel .jcarousel-item-horizontal {
+	margin-left: 3px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	margin-right: 11px;
+}
+
+.d-carousel .jcarousel-next-horizontal {
+	position: absolute;
+	top: 130px;
+	right: 0;
+	margin-right: 3px;
+	width: 70px;
+	height: 70px;
+	cursor: pointer;
+	background: transparent url(../img/fotoramaNext.png) no-repeat;
+	opacity: 0.7;
+}
+
+.d-carousel .jcarousel-next-horizontal:hover {
+	opacity: 1;
+}
+
+.d-carousel .jcarousel-direction-rtl .jcarousel-next-horizontal {
+	left: 5px;
+	right: auto;
+	background-image: url(../img/blog-arrows.jpg);
+}
+
+.d-carousel .jcarousel-next-horizontal:hover {
+	background-position: bottom right;
+}
+
+.d-carousel .jcarousel-prev-horizontal {
+	position: absolute;
+	top: 130px;
+	left: 0;
+	margin-left: 3px;
+	width: 70px;
+	height: 70px;
+	cursor: pointer;
+	background: transparent url(../img/fotoramaPrev.png) no-repeat;
+	opacity: 0.7;
+}
+
+.d-carousel .jcarousel-prev-horizontal:hover {
+	opacity: 1;
+}
+
+.d-carousel .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+	left: auto;
+	right: 5px;
+	background-image: url(../img/blog-arrows.jpg);
+}
+
+.d-carousel .jcarousel-prev-horizontal:hover {
+	background-position: bottom left;
+}
